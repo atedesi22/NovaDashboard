@@ -7,9 +7,9 @@ import ProtectedRoute from "../core/guards/ProtectedRoute";
 
 import Login from "../pages/auth/Login";
 import Overview from "../pages/dashboard/Overview";
-// import Modules from "../pages/modules/Modules";
-// import Users from "../pages/users/Users";
-// import Finance from "../pages/finance/Finance";
+import Modules from "../pages/modules/Modules";
+import Users from "../pages/users/Users";
+import Finance from "../pages/finance/Finance";
 // import Logs from "../pages/logs/Logs";
 
 export default function AppRoutes() {
@@ -28,11 +28,11 @@ export default function AppRoutes() {
           </ProtectedRoute>
         }
       >
-        {/* <Route index element={<Overview />} />
+        <Route index element={<Overview />} />
         <Route path="modules" element={<Modules />} />
         <Route path="users" element={<Users />} />
         <Route path="finance" element={<Finance />} />
-        <Route path="logs" element={<Logs />} /> */}
+        <Route path="logs" element={<Logs />} />
       </Route>
 
       {/* Fallback */}
