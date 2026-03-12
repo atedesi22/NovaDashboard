@@ -10,7 +10,7 @@ import Overview from "../pages/dashboard/Overview";
 import Modules from "../pages/modules/Modules";
 import Users from "../pages/users/Users";
 import Finance from "../pages/finance/Finance";
-// import Logs from "../pages/logs/Logs";
+import Logs from "../pages/logs/Logs";
 
 export default function AppRoutes() {
   return (
