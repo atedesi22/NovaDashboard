@@ -5,8 +5,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import DashboardLayout from "../core/layout/DashboardLayout";
 import ProtectedRoute from "../core/guards/ProtectedRoute";
 
-// import Login from "../pages/auth/Login";
-// import Overview from "../pages/dashboard/Overview";
+import Login from "../pages/auth/Login";
+import Overview from "../pages/dashboard/Overview";
 // import Modules from "../pages/modules/Modules";
 // import Users from "../pages/users/Users";
 // import Finance from "../pages/finance/Finance";
@@ -17,7 +17,7 @@ export default function AppRoutes() {
     <Routes>
 
       {/* Public Route */}
-      {/* <Route path="/login" element={<Login />} /> */}
+      <Route path="/login" element={<Login />} />
 
       {/* Protected Dashboard Routes */}
       <Route
